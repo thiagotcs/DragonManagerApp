@@ -10,9 +10,11 @@
 
 ## 📝 Descrição
 
-O Dragon Project é uma aplicação web desenvolvida para gerenciar uma lista de dragões de forma interativa e intuitiva. A aplicação permite aos usuários criar, visualizar, editar e excluir informações sobre dragões, interagindo com a API fornecida. Esta API é utilizada para todas as operações de dados, incluindo a listagem de dragões em ordem alfabética, a visualização de detalhes específicos, a criação de novos dragões, e a atualização ou remoção de dragões existentes.
+O Dragon Manager App é uma aplicação web desenvolvida para gerenciar uma lista de dragões de forma interativa e intuitiva. A aplicação permite aos usuários criar, visualizar, editar e excluir informações sobre dragões, interagindo com a API fornecida. Esta API é utilizada para todas as operações de dados, incluindo a listagem de dragões em ordem alfabética, a visualização de detalhes específicos, a criação de novos dragões, e a atualização ou remoção de dragões existentes.
 
-Além disso, a aplicação implementa rotas privadas, garantindo que apenas usuários autenticados tenham acesso às funcionalidades principais. Inicialmente, os usuários podem acessar a aplicação usando um usuário padrão, com a opção de criar uma nova conta para acesso personalizado. A aplicação também é responsiva, assegurando uma ótima experiência em dispositivos móveis. Ela foi construída utilizando React, TypeScript e uma variedade de bibliotecas úteis para otimizar o desenvolvimento e a experiência do usuário.
+A aplicação também oferece recursos como pesquisa por nome e tipo de dragão, paginação para facilitar a visualização da lista de dragões e componentes de carregamento (skeleton screens) para melhorar a experiência do usuário durante o carregamento dos dados.
+
+Além disso, implementa rotas privadas, garantindo que apenas usuários autenticados tenham acesso às funcionalidades principais. Inicialmente, os usuários podem acessar a aplicação usando um usuário padrão, com a opção de criar uma nova conta para acesso personalizado. A aplicação também é responsiva, assegurando uma ótima experiência em dispositivos móveis. Ela foi construída utilizando React, TypeScript e uma variedade de bibliotecas úteis para otimizar o desenvolvimento e a experiência do usuário.
 
 ## 💻 Tecnologias Utilizadas
 
@@ -56,13 +58,13 @@ Para instalar e executar o projeto localmente, siga os passos abaixo:
 1. Clone o repositório:
 
 ```js
-git clone https://github.com/seu-usuario/dragon-project.git
+git clone https://github.com/thiagotcs/DragonManagerApp.git
 ```
 
 2. Entre no diretório do projeto:
 
 ```js
-cd dragon-project
+cd DragonManagerApp
 ```
 
 3. Instale as dependências:
