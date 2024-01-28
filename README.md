@@ -142,24 +142,43 @@ Contribuições são sempre bem-vindas. Para contribuir, faça um fork do reposi
 <img width="1680" alt="image-17" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/bc0392af-b725-45d9-8b47-1ad53ff7cb62">
 <img width="1680" alt="image-18" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/e8dbe1fd-5f9f-4544-b497-4ba503f16493">
 <img width="1680" alt="image-19" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/6cc16ee1-0d29-42cd-83ea-b555b39c796b">
+<p align="center">
 <img width="422" alt="image-36" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/6efb5ef5-06cf-4886-b2f0-c6cf7190b0dc">
 <img width="422" alt="image-37" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/6f806121-8b28-44e0-a436-a5d883ff1a20">
+</p>
+<p align="center">
 <img width="432" alt="image-20" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/eb32b085-20e3-4d04-bc49-9559546b11af">
 <img width="428" alt="image-21" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/4b32bdf3-9573-43a4-9bb6-de665fe080cc">
+</p>
+<p align="center">
 <img width="423" alt="image-22" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/e3c96572-b019-490d-a5f8-031936364f16">
 <img width="447" alt="image-23" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/690d34ef-f084-47df-a2ce-3f2ed2d34f16">
+</p>
+<p align="center">
 <img width="425" alt="image-24" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/4dd59afa-6446-4c68-9a89-634467553cbf">
 <img width="423" alt="image-35" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/f4e1a08a-af2e-4bae-9b41-5ab81fef48b9">
+</p>
+<p align="center">
 <img width="424" alt="image-25" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/466e9b02-19a6-4a46-81ed-317e7b5f69a6">
 <img width="427" alt="image-26" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/13cb2669-fdb4-4c07-aff1-2aab54cef0f5">
+</p>
+<p align="center">
 <img width="423" alt="image-27" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/d5679953-47c5-4fda-b059-a00e125f8b8e">
 <img width="425" alt="image-28" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/41c26ec7-308a-473e-93d7-97fb5bfb3200">
+</p>
+<p align="center">
 <img width="434" alt="image-29" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/9bde57cf-7e72-44c1-9e3d-557cee646039">
 <img width="423" alt="image-30" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/71b243ba-6e63-4f4f-afd9-bd4f44c38a34">
+</p>
+<p align="center">
 <img width="419" alt="image-31" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/db4feeda-9417-4ebc-a898-67f6a91321cd">
 <img width="354" alt="image-33" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/098c0498-8a8f-4252-a05b-5eea2575f7df">
+</p>
+<p align="center">
 <img width="355" alt="image-34" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/5c87a9c3-c155-4d31-a3fc-1e0baae082cb">
 <img width="421" alt="image-38" src="https://github.com/thiagotcs/DragonManagerApp/assets/53226663/08baad01-ba8a-4e17-bdb3-ad67c558ad10">
+</p>
+
 
 
 
