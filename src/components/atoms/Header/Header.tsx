@@ -1,8 +1,8 @@
+import { useAuthStore } from '@/store/useAuthStore'
+import { NavLink } from '@components/atoms/NavLink'
 import { Flame, Home, ListPlus, LogOut } from 'lucide-react'
 import { useMutation } from 'react-query'
 import { useNavigate } from 'react-router-dom'
-import { useAuthStore } from '../../../store/useAuthStore'
-import { NavLink } from '../NavLink'
 import { Container, HeaderContent, Profile } from './styles'
 
 export function Header() {

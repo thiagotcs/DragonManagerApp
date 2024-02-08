@@ -1,5 +1,5 @@
+import mediaImg from '@/assets/media-home.webp'
 import { Outlet } from 'react-router-dom'
-import mediaImg from '../../assets/media-home.webp'
 import {
   BrandName,
   FlexContainer,

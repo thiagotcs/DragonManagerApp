@@ -1,6 +1,6 @@
+import { Button } from '@components/atoms/Button'
 import { shade } from 'polished'
 import styled from 'styled-components'
-import { Button } from '../Button'
 
 export const PaginationContainer = styled.div`
   display: flex;

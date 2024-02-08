@@ -1,8 +1,8 @@
-import closeIcon from '../../../assets/close.png'
-import { useModalStore } from '../../../store/useModalStore'
-import { DragonModalProps } from '../../../types/apiTypes'
-import { DragonDetails } from '../../organisms/DragonDetails'
-import { DragonEdit } from '../../organisms/DragonEdit'
+import closeIcon from '@/assets/close.png'
+import { useModalStore } from '@/store/useModalStore'
+import { DragonModalProps } from '@/types/apiTypes'
+import { DragonDetails } from '@components/organisms/DragonDetails'
+import { DragonEdit } from '@components/organisms/DragonEdit'
 import { ModalBody, Overlay } from './styles'
 
 export const Modal = ({ visible, onClose }: DragonModalProps) => {

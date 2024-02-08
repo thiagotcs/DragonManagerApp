@@ -1,9 +1,9 @@
+import { orderByArray } from '@/utils/functions'
+import { Pagination } from '@components/atoms/Pagination'
+import { GetDragon } from '@services/DragonService'
 import { ChangeEvent, useMemo, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { useQuery } from 'react-query'
-import { GetDragon } from '../../../services/DragonService'
-import { orderByArray } from '../../../utils/functions'
-import { Pagination } from '../../atoms/Pagination'
 
 import {
   Table,
@@ -11,8 +11,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '../../atoms/Table'
-import { SearchInput } from '../../molecules/SearchInput'
+} from '@components/atoms/Table'
+import { SearchInput } from '@components/molecules/SearchInput'
 import { DragonTableRow } from './DragonTableRow'
 import { DragonTableSkeleton } from './DragonTableSkeleton'
 import { Container, Content, FormStyled } from './styles'

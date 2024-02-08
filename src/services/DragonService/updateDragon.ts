@@ -1,5 +1,5 @@
-import { IDragonData } from '../../types/apiTypes'
-import { dragonApi } from '../api'
+import { IDragonData } from '@/types/apiTypes'
+import { dragonApi } from '@services/api'
 
 export const updateDragon = async (
   id: string,

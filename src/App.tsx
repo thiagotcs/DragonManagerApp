@@ -3,7 +3,7 @@ import { QueryClient, QueryClientProvider } from 'react-query'
 import { RouterProvider } from 'react-router-dom'
 import { Toaster } from 'sonner'
 import { router } from './routes'
-import { GlobalStyles } from './styles/GlobalStyles'
+import { GlobalStyles } from '@styles/GlobalStyles'
 
 const queryCLient = new QueryClient()
 

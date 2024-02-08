@@ -1,14 +1,14 @@
+import { DeleteDragon } from '@/services/DragonService'
+import { useModalStore } from '@/store/useModalStore'
+import { IDragonData } from '@/types/apiTypes'
+import { firstCapitalLetter, formatDatePT } from '@/utils/functions'
+import { Button } from '@components/atoms/Button'
+import { Modal } from '@components/atoms/Modal'
+import { TableCell, TableRow } from '@components/atoms/Table'
 import { Edit, Search, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 import { useQueryClient } from 'react-query'
 import { toast } from 'sonner'
-import { DeleteDragon } from '../../../services/DragonService'
-import { useModalStore } from '../../../store/useModalStore'
-import { IDragonData } from '../../../types/apiTypes'
-import { firstCapitalLetter, formatDatePT } from '../../../utils/functions'
-import { Button } from '../../atoms/Button'
-import { Modal } from '../../atoms/Modal'
-import { TableCell, TableRow } from '../../atoms/Table'
 
 export function DragonTableRow({ id, name, createdAt, type }: IDragonData) {
   const queryClient = useQueryClient()
@@ -29,7 +29,9 @@ export function DragonTableRow({ id, name, createdAt, type }: IDragonData) {
     setIsModalVisible(false)
     setSelectedDragon(null)
   }
-
+  if (!id) {
+    return null
+  }
   const handleDelete = () => {
     toast.promise(
       new Promise((resolve, reject) => {

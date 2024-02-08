@@ -1,5 +1,5 @@
+import { SignInFields } from '@components/molecules/SignInFields'
 import { Helmet } from 'react-helmet-async'
-import { SignInFields } from '../../components/molecules/SignInFields'
 
 export function SignIn() {
   return (

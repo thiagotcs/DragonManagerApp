@@ -1,13 +1,13 @@
+import { useModalStore } from '@/store/useModalStore'
+import { DragonModalProps, IDragonData } from '@/types/apiTypes'
+import { formatDatePT } from '@/utils/functions'
+import * as Input from '@components/atoms/Input'
+import { updateDragon } from '@services/DragonService'
 import { useMemo } from 'react'
 import { useForm } from 'react-hook-form'
 import { useQueryClient } from 'react-query'
 import { toast } from 'sonner'
 import { z } from 'zod'
-import { updateDragon } from '../../../services/DragonService'
-import { useModalStore } from '../../../store/useModalStore'
-import { DragonModalProps, IDragonData } from '../../../types/apiTypes'
-import { formatDatePT } from '../../../utils/functions'
-import * as Input from '../../atoms/Input'
 import { ItemDetails, StyledButton } from './styles'
 
 const dragonEditForm = z.object({

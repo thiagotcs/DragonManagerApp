@@ -1,5 +1,5 @@
-import { useModalStore } from '../../../store/useModalStore'
-import { firstCapitalLetter, formatDatePT } from '../../../utils/functions'
+import { useModalStore } from '@/store/useModalStore'
+import { firstCapitalLetter, formatDatePT } from '@/utils/functions'
 import { ItemDetails } from './styles'
 
 export function DragonDetails() {

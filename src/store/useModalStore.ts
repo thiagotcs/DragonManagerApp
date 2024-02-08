@@ -1,5 +1,5 @@
+import { IDragonData } from '@/types/apiTypes'
 import { create } from 'zustand'
-import { IDragonData } from '../types/apiTypes'
 
 interface ModalState {
   selectedDragon: IDragonData | null

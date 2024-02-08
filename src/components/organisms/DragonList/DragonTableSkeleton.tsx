@@ -1,8 +1,8 @@
+import { Button } from '@components/atoms/Button'
+import { TableCell, TableRow } from '@components/atoms/Table'
 import { Edit, Search, Trash2 } from 'lucide-react'
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
-import { Button } from '../../atoms/Button'
-import { TableCell, TableRow } from '../../atoms/Table'
 
 export function DragonTableSkeleton() {
   return Array.from({ length: 10 }).map((_, i) => {

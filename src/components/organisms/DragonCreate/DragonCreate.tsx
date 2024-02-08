@@ -1,13 +1,13 @@
+import { Button } from '@components/atoms/Button'
+import * as Input from '@components/atoms/Input'
+import { ErrorMessage } from '@components/atoms/Input/ErrorMessage'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { AddDragonData } from '@services/DragonService'
 import { Helmet } from 'react-helmet-async'
 import { useForm } from 'react-hook-form'
 import { toast } from 'sonner'
 import * as z from 'zod'
-import { AddDragonData } from '../../../services/DragonService'
-import { Button } from '../../atoms/Button'
-import * as Input from '../../atoms/Input'
-import { ErrorMessage } from '../../atoms/Input/ErrorMessage'
-import { Container, Content, StyledButton, StyledForm } from './styles'
+import * as S from './styles'
 
 export const dragonAddFormSchema = z.object({
   name: z
@@ -57,8 +57,8 @@ export function DragonCreate() {
   return (
     <>
       <Helmet title=">Explorar Dragões" />
-      <Container>
-        <Content>
+      <S.Container>
+        <S.Content>
           <div className="title">
             <h1>Novo Dragão</h1>
           </div>
@@ -68,7 +68,7 @@ export function DragonCreate() {
                 Cancelar
               </Button>
             )}
-            <StyledButton
+            <S.StyledButton
               className={`add-order ${
                 isSubmitting || !isDirty ? 'disabled-button' : ''
               }`}
@@ -78,10 +78,10 @@ export function DragonCreate() {
               form="settings"
             >
               <span>Salvar</span>
-            </StyledButton>
+            </S.StyledButton>
           </div>
-        </Content>
-        <StyledForm>
+        </S.Content>
+        <S.StyledForm>
           <form id="settings" onSubmit={handleSubmit(handleSaveDragon)}>
             <div className="container">
               <label htmlFor="name">Nome do Dragão:</label>
@@ -124,8 +124,8 @@ export function DragonCreate() {
               </div>
             </div>
           </form>
-        </StyledForm>
-      </Container>
+        </S.StyledForm>
+      </S.Container>
     </>
   )
 }

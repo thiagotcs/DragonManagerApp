@@ -1,5 +1,5 @@
+import { Button } from '@components/atoms/Button'
 import styled from 'styled-components'
-import { Button } from '../../atoms/Button'
 
 export const ItemDetails = styled.div`
   background-color: #fff;

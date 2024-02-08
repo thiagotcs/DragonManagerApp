@@ -1,5 +1,5 @@
-import { DragonResponse } from '../../types/apiTypes'
-import { dragonApi } from '../api'
+import { DragonResponse } from '@/types/apiTypes'
+import { dragonApi } from '@services/api'
 
 export const GetDragonDetail = async (id: string): Promise<DragonResponse> => {
   try {

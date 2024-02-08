@@ -1,6 +1,6 @@
+import { IDragonData } from '@/types/apiTypes'
 import { format, isValid, parse, parseISO } from 'date-fns'
 import { orderBy } from 'lodash'
-import { IDragonData } from '../types/apiTypes'
 
 export function firstCapitalLetter(value: string) {
   return value.charAt(0).toUpperCase() + value.slice(1)

@@ -1,5 +1,5 @@
 import { Search } from 'lucide-react'
-import * as Input from '../../atoms/Input'
+import * as Input from '@components/atoms/Input'
 import { SearchInputStyled } from './styles'
 
 interface SearchInputProps {
